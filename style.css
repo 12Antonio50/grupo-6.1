@@ -1,0 +1,201 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecb43de9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para los encabezados H1 */
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .animado {
+    animation: entrar 1s ease-out;
+  }
+  
+  @keyframes entrar {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+  /* Estilo para el contenedor principal */
+  .bloque1,
+  .bloque2,
+  .bloque3,
+  .bloque4,
+  .bloque5 {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffffdc;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .animado {
+    animation: entrar 1s ease-out;
+  }
+  
+  @keyframes entrar {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+   /* Estilo para el contenedor principal */
+   .bloque1,
+   .bloque2,
+   .bloque3,
+   .bloque4,
+   .bloque5,
+   .bloque6 {
+     width: 80%;
+     margin: 0 auto;
+     background-color: #ffffff;
+     padding: 20px;
+     box-shadow: 0px 0px 10px 0px rgba(246, 244, 244, 0.2);
+     margin-top: 50px;
+     margin-bottom: 50px;
+   }
+  
+   .animado {
+    animation: entrar 1s ease-out;
+  }
+  
+  @keyframes entrar {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+   /* Estilo para el contenedor principal */
+   .bloque1,
+   .bloque2 {
+     width: 80%;
+     margin: 0 auto;
+     background-color: #fff;
+     padding: 20px;
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+     margin-top: 50px;
+     margin-bottom: 50px;
+   }
+  
+   .titulo,
+   .titulo {
+     width: 80%;
+     margin: 0 auto;
+     background-color: #fff;
+     padding: 20px;
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+     margin-top: 50px;
+     margin-bottom: 50px;
+   }
+  
+
+  /* Estilo para las imágenes */
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  /* Estilo para los párrafos */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para los encabezados H2 */
+  h2 {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  /* Estilo para los enlaces */
+  a {
+    color: #008CBA;
+    text-decoration: none;
+  }
+  
+  /* Estilo para los enlaces al pasar el cursor por encima */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header{
+    background-color: rgba(255, 255, 255, 0.589);
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+    position: fixed;
+    height:auto;
+    top: 0;
+}
+
+nav{
+    float:center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 12%;
+    padding: 25px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background-color: rgb(161, 104, 38);
+    height: 10px;
+    top: 0;
+    position: absolute;
+    transition: width 0.18s;
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+}
+
+header h1{
+    margin-left: 5%;
+    padding: 0;
+    font-size: 45px;
+    text-decoration: underline rgb(0, 0, 0) dashed 5px;
+}
+
+.menu{
+    width: auto;
+    margin: 0 auto;
+}
+
+.contenido{
+  padding:350px;
+  padding-top: 250px;
+}
